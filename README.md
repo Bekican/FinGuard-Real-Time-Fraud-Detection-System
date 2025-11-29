@@ -1,13 +1,3 @@
-#FinGuard: Real-Time Fraud Detection System
-
-![Python](https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge&logo=python)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi)
-
-**FinGuard** is a scalable, event-driven microservices architecture designed to detect financial fraud in real-time. It processes high-volume transaction streams, identifies suspicious patterns (e.g., impossible travel, high-value transactions) using stateful analysis, and provides real-time observability.
-
 ## Architecture
 
 The system follows a modern **Big Data Pipeline** architecture:
@@ -23,8 +13,6 @@ graph LR
     
     style C fill:#f96,stroke:#333,stroke-width:2px
     style B fill:#000,stroke:#f96,stroke-width:2px,color:#fff
-
-
 
 
 Key Features
