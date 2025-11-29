@@ -14,12 +14,12 @@ The system follows a modern **Big Data Pipeline** architecture:
 
 ```mermaid
 graph LR
-    A[Transaction Simulator] -->|JSON Stream| B(Apache Kafka)
-    B -->|Consumer| C{Fraud Detector}
-    C <-->|State Cache| D[(Redis)]
-    C -->|Persist Fraud| E[(PostgreSQL)]
-    E -->|Query| G[FastAPI Backend]
-    G -->|Visualize| H[Streamlit Dashboard]
+    A[Simulator] --> B(Kafka)
+    B --> C{Detector}
+    C <--> D[(Redis)]
+    C --> E[(PostgreSQL)]
+    E --> F[FastAPI]
+    F --> G[Dashboard]
 
 Key Features
 Real-Time Stream Processing: Ingests transaction data via Apache Kafka.
