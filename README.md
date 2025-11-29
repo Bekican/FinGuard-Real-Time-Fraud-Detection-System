@@ -10,9 +10,6 @@ graph LR
     C -->|Persist Fraud| E[(PostgreSQL)]
     E -->|Query| G[FastAPI Backend]
     G -->|Visualize| H[Streamlit Dashboard]
-    
-    style C fill:#f96,stroke:#333,stroke-width:2px
-    style B fill:#000,stroke:#f96,stroke-width:2px,color:#fff
 
 
 Key Features
