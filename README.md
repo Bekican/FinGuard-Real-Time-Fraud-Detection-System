@@ -1,4 +1,4 @@
-## Architecture
+## 🏗️ Architecture
 
 The system follows a modern **Big Data Pipeline** architecture:
 
